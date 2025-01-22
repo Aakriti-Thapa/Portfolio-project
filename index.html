@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aakriti's Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/f664e1256d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="left">AAKRITI.</div>
+          <div class="right">
+            <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+  
+          <div class="header-text">
+            <p>WEB DEVELOPER</p>
+            <h1>Hi, I'm <span>Aakriti</span> <br>Thapa from Darjeeling</h1>
+           </div>
+   
+       
+      </div>
+    </div>
+<!-- ------------------------------------about------------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user1.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <div class="personal-info">
+              <div class="info-item"><p>Name: <span>Aakriti Thapa</span></p></div>
+              <div class="info-item"><p>Date of birth: <span>16th May 1999</span></p></div>
+              <div class="info-item"><p>Address: <span>Nahori Balasun T.E Sonada</span></p></div>
+              <div class="info-item"><p>Pin-code: <span>734209</span></p></div>
+              <div class="info-item"><p>Email: <span>thapaaakriti971@gmail.com</span></p></div>
+              <div class="info-item"><p>Phone-no: <span>6291251621</span></p></div>
+            </div>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <div class="skills-content">
+                <h5>HTML5</h5>
+                <div class="progress">
+                  <div class="progress-in" style="width:96%"></div>
+                  <div class="skill-percent">96%</div>
+                </div>
+              </div>
+              <div class="skills-content">
+                <h5>CSS</h5>
+                <div class="progress">
+                  <div class="progress-in" style="width:86%"></div>
+                  <div class="skill-percent">86%</div>
+                </div>
+              </div>
+              <div class="skills-content">
+                <h5>JavaScript</h5>
+                <div class="progress">
+                  <div class="progress-in" style="width:86%"></div>
+                  <div class="skill-percent">86%</div>
+                </div>
+              </div>
+              <div class="skills-content">
+                <h5>Java</h5>
+                <div class="progress">
+                  <div class="progress-in" style="width:66%"></div>
+                  <div class="skill-percent">66%</div>
+                </div>
+              </div>
+              <div class="skills-content">
+                <h5>ReactJS</h5>
+                <div class="progress">
+                  <div class="progress-in" style="width:50%"></div>
+                  <div class="skill-percent">50%</div>
+                  </div>
+                </div>
+              </div>  
+            
+
+             <div class="tab-contents" id="projects">
+              <div class="project-contents">
+                <p><span>Tic-Tac-Toe :</span><br>The Tic Tac Toe game is classic interactive web based game developed by using HTML, CSS and JavaScript. This project aims to provide an engaging and user friendly experience where two players can enjoy the traditional Tic Tac Toe game.</p>
+              </div>
+               <div class="project-contents">
+                <p><span>Amazon Clone :</span><br>The Amazon clone website is a fully functional e-commerce platform built using HTML and CSS. It replicates the familiar layout and design of Amazon allowing users to browse and purchase products. The code includes the header, search bar, navigation menu, hero-section, shop-section and footer. </p></div>
+                <div class="project-contents">
+                <p><span>Rock Paper & Scissor :</span><br>Rock paper and scissor game is a simple fun game in which both player have to make a rock paper or scissor. It has only two possible outcome a draw or win for one player and a loss for other player.</p></div>
+                <div class="project-contents">
+                <p><span>Portfolio website :</span><br>This project involves the creation of a professional website built using HTML, CSS and JavaScript. The website as the digital showcase for personal project, skills and designed to provide potential employers and clients with an in-depth look at the creator's capabilities and achievements.<br>
+                </p></div>   
+             </div>
+            
+            <div class="tab-contents" id="education"> 
+              <ul>
+                <li><span>2014 -</span><br>Madhyamik Pariksha from St. Joseph's H.S school</li>
+                <li><span>2017 -</span><br>H.S examination from Pushparani Roy memorial high school</li>
+                <li><span>2019 -</span><br>Diploma in CST from Darjeeling Polytechnic Institute</li>
+                <li><span>2024 -</span><br>B.tech in CSE from Ideal Institute of Engineering</li>
+              </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!------------------------------------------ services -------------------------------------->
+    <div id="services">
+     <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Frontend Dev</h2>
+          <p>Building awesome products from a visual concept to a fully functional application. Building modern single page apps development with React.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-pen-nib"></i>
+          <h2>Web Design</h2>
+          <p>Creating the visual layout and aesthetics of a website, focusing on user experience, graphics, and overall look.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Frontend Dev</h2>
+          <p>Building awesome products from a visual concept to a fully functional application. Building modern single page apps development with React.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+  <!--------------------------------------------portfolio --------------------------------------->
+   <div id="portfolio">
+    <div class="container">
+      <div class="sub-title">My Work</div>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/Work1.png" alt="">
+          <div class="layer">
+            <h3>Amazon clone</h3>
+            <p>The website replicates the familiar experience of purchasing products through Amazon.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/Work 2.png" alt="">
+          <div class="layer">
+            <h3>Rock paper & Scissor</h3>
+            <p>Rock paper and scissor game is a simple fun game in which both player have to make a rock paper or scissor.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+       
+        <div class="work">
+          <img src="images/Work3.png" alt="">
+          <div class="layer">
+            <h3>Tic-Tac-Toe game</h3>
+            <p>It is a classic interactive game where two players can enjoy the traditional Tic Tac Toe game.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+   </div> 
+<!----------------------------------------contact----------------------------------------------------->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>thapaaakriti971@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>6291251621</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="/images/Akee resume.pdf" download class="btn btn2">Download CV </a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet"> 
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="text" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6"  placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Aakriti. Made with <i class="fa-solid fa-heart"></i> by Aakriti</p>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</head>
